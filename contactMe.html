@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactMe</title>
+    <style>    
+body, p, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:url(water.PNG) no-repeat;
+    background-size: cover;
+}
+
+header {
+    background: rgba(47, 252, 28, 0);
+    backdrop-filter: blur(200px) ;
+    color: #fff;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.container {
+    max-width: 40%;
+    margin: 20px 700px auto auto;
+    padding: 20px;
+    background-color: #27f9f900;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    
+}
+.contactme {
+    border-radius: 15px;
+    border: 2px solid yellow;
+    width: max-content;
+    height: max-content;
+    padding: 25px 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(to right, red , blue);-webkit-text-fill-color: transparent;-webkit-background-clip: text;
+    margin-left: 480px;
+}
+
+.form-box {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.input-title {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input2 {
+    width: 59%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.textinput {
+    width: 60%;
+    padding: 10px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #0000fe;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 290px;
+}
+
+.submit-btn:hover {
+    background-color: #ff0000;
+    
+}
+
+    </style>
+</head>
+<body>
+             <header>
+                 <h1 class="contactme">Contact Me</h1>
+            </header>
+        
+        <div class="container">
+            <form class="form-box">
+                <label class="input-title">Name:</label>
+                <input class="input" type="text" placeholder="Your Name" required><br>
+    
+                <label class="input-title">Email:</label>
+                <input class="input" type="email" placeholder="Your Email" required><br>
+                <label class="input-title">Ph-No:</label>
+                <input class="input2" type="tel" placeholder="Your mobile number" required><br>
+    
+                <label class="input-title">Message:</label><br><textarea class="textinput" placeholder="Write your message..." rows="6" required></textarea><br>
+    
+                <button class="submit-btn" type="submit">submit</button>
+            </form>
+        </div>
+</body>
+</html>
